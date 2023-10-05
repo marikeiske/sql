@@ -1,0 +1,6 @@
+CREATE TABLE clientes (
+    idCliente int PRIMARY KEY AUTO_INCREMENT,
+    titulo varchar(100) NOT null,
+    endereco varchar(200),
+    telefone varchar(20)
+);
